@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+header {
+    background-color: #999;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ff77ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+article h2, article h3 {
+    font-family: 'Brush Script MT', cursive;
+    color: #333;
+}
+
+article p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+aside {
+    flex: 1;
+    background-color: #ff77ff;
+    padding: 20px;
+}
+
+aside h3 {
+    font-family: 'Brush Script MT', cursive;
+    color: #333;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #999;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+}
